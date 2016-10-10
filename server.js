@@ -13,14 +13,14 @@ app.get('/', (req, res) => {
   if (!canAccessEndpoint(req)) {
     console.log(
       `unauthorized request for ${req.originalUrl} by an anonymous intruder`);
-    res.status(401).send("i won't let you").end();
+    res.status(401).send("i won't let you");
   }
   else {
-    res.send('ok').end();
+    res.send('ok');
   }
 });
 
 
 // listen for requests :)
-app.listen(process.env.PORT, () => console.log(
-  `Your app is listening on port ${process.env.PORT}`));
+app.listen(process.env.PORT || 8080, () => console.log(
+  `Your app is listening on port ${process.env.PORT || 8080}`));
