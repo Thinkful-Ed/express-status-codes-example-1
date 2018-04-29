@@ -1,23 +1,21 @@
 {
-	"name": "hyperdev-req-resp-ex-4",
+	"name": "express-status-codes-example",
 	"version": "0.0.1",
 	"description": "",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
 	},
-	"dependencies": {
-		"express": "^4.14.0"
-	  
-	},
+  "dependencies": {
+    "express": "^4.16.2"
+  },
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Thinkful-Ed/hyperdev-req-resp-ex-4"
+		"url": "https://github.com/Thinkful-Ed/express-status-codes-example-1"
 	},
 	"keywords": [
 		"thinkful",
 		"node",
-		"hyperdev",
 		"express"
 	],
 	"license": "MIT"
